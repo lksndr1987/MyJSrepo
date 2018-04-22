@@ -15,4 +15,4 @@ function Sequence(text){
     }
     return stack.length === 0;
 }
-console.log(Sequence("{[]({})}"));
+console.log(Sequence('{[]({})}'));
