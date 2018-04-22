@@ -19,5 +19,6 @@ function conversion(a) {
 
     return result;
 }
+
 console.log('\nString 1: ' + str1 + ', Result: ' + conversion(str1));
 console.log('\nString 2: ' + str2 + ', Result: ' + conversion(str2) + '\n');
