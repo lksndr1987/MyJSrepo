@@ -20,6 +20,7 @@ function StringHandling(text)
         console.log("other type");
 }
 
+
 StringHandling('abcabcabcabc');
 StringHandling('test9test9test9');
 StringHandling(true);
