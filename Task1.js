@@ -1,7 +1,7 @@
 'use strict';
 
-let str1 = "10000101";
-let str2 = "1021";
+let str1 = '10000101';
+let str2 = '1021';
 function isGood(number) {
     return number == 0 || number == 1
 }
@@ -19,5 +19,5 @@ function conversion(a) {
 
     return result;
 }
-console.log("\nString 1: " + str1 + ", Result: " + conversion(str1));
-console.log("\nString 2: " + str2 + ", Result: " + conversion(str2) + "\n");
+console.log('\nString 1: ' + str1 + ', Result: ' + conversion(str1));
+console.log('\nString 2: ' + str2 + ', Result: ' + conversion(str2) + '\n');
